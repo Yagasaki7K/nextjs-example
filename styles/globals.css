@@ -12,6 +12,18 @@
   --black: #000;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #232634;
+    --background-alt: #303446;
+    --font: #f8f8f2;
+    --font-alt: #ccc;
+    --gray: rgba(255, 255, 255, 0.3);
+    --border: #3d3f52;
+    --font-black: #282a36;
+  }
+}
+
 html,
 body {
   padding: 0;
