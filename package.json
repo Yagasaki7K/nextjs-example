@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "yagasaki": "yarn upgrade-interactive --latest"
+    "yagasaki": "yarn upgrade-interactive --latest && npx update-browserslist-db@latest"
   },
   "dependencies": {
     "next": "14.1.2",
