@@ -1,9 +1,22 @@
+:root {
+  --background: #303446;
+  --background-alt: #232634;
+  --green: #a6d189;
+  --orange: #ef9f76;
+  --yellow: #eed49f;
+  --purple: #ca9ee6;
+  --blue: #99d1db;
+  --red: #e68284;
+  --white: #fff;
+  --gray: #ccc;
+  --black: #000;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
