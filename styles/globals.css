@@ -24,11 +24,16 @@
   }
 }
 
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  background: var(--white);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -38,4 +43,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--red);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 20px;
 }
